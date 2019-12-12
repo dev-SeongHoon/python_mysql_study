@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="464a5d9f-742d-4282-8066-134a5ee0f0c2" name="Default Changelist" comment="" />
+    <list default="true" id="464a5d9f-742d-4282-8066-134a5ee0f0c2" name="Default Changelist" comment="Python Mysql 연동 초기화 수업">
+      <change afterPath="$PROJECT_DIR$/connection_pool/connection_pool_study02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connection_pool/db_config.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection_pool/connect_pool_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/connection_pool/connect_pool_main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +22,17 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="dev-SeongHoon &lt;rpgmaker1004@gmail.com&gt;" />
         <option value="dev-SeongHoon" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -39,10 +51,78 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/connection_pool" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.connection_test">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/connection_pool" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.connect_pool_main">
+    <configuration name="connect_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_mysql_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection/connect_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="connect_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_mysql_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="connect_pool_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_mysql_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connection_pool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection_pool/connect_pool_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="connection_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_mysql_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection/connection_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection/connection_study01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,8 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.connect_pool_main" />
         <item itemvalue="Python.connection_test" />
         <item itemvalue="Python.connection_mysql" />
+        <item itemvalue="Python.connect_main (1)" />
+        <item itemvalue="Python.connect_main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,36 +198,102 @@
       <option name="presentableId" value="Default" />
       <updated>1576139657950</updated>
     </task>
+    <task id="LOCAL-00001" summary="Python Mysql 연동 초기화 수업">
+      <created>1576143545391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576143545391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Python Mysql 연결작업 완료">
+      <created>1576145495550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576145495550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Python Mysql 연결작업 완료">
+      <created>1576146320023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576146320023</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;Python Mysql 연결작업 완료&quot;">
+      <created>1576146734671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576146734671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Python Mysql 연동 초기화 수업" />
+    <MESSAGE value="Python Mysql 연결작업 완료" />
+    <MESSAGE value="Revert &quot;Python Mysql 연결작업 완료&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Python Mysql 연결작업 완료&quot;" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="929" y="263" width="865" height="625" key="CommitChangelistDialog2" timestamp="1576143463472">
+    <state x="620" y="261" width="865" height="625" key="CommitChangelistDialog2" timestamp="1576146734624">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="929" y="263" width="865" height="625" key="CommitChangelistDialog2/59.27.1861.1053@59.27.1861.1053" timestamp="1576143463472" />
-    <state x="1144" y="317" width="435" height="518" key="FileChooserDialogImpl" timestamp="1576143338845">
+    <state x="620" y="261" width="865" height="625" key="CommitChangelistDialog2/59.27.1861.1053@59.27.1861.1053" timestamp="1576146734624" />
+    <state x="883" y="233" width="924" height="684" key="DBNavigator.ProjectSettingsDialog" timestamp="1576147967433">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="1144" y="317" width="435" height="518" key="FileChooserDialogImpl/59.27.1861.1053@59.27.1861.1053" timestamp="1576143338845" />
-    <state width="1342" height="218" key="GridCell.Tab.0.bottom" timestamp="1576143392254">
+    <state x="883" y="233" width="924" height="684" key="DBNavigator.ProjectSettingsDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576147967433" />
+    <state x="1144" y="317" width="435" height="518" key="FileChooserDialogImpl" timestamp="1576146520282">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state width="1342" height="218" key="GridCell.Tab.0.bottom/59.27.1861.1053@59.27.1861.1053" timestamp="1576143392254" />
-    <state width="1342" height="218" key="GridCell.Tab.0.center" timestamp="1576143392254">
+    <state x="1144" y="317" width="435" height="518" key="FileChooserDialogImpl/59.27.1861.1053@59.27.1861.1053" timestamp="1576146520282" />
+    <state x="1043" y="370" width="352" height="231" key="Github.ShareDialog" timestamp="1576143663850">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state width="1342" height="218" key="GridCell.Tab.0.center/59.27.1861.1053@59.27.1861.1053" timestamp="1576143392254" />
-    <state width="1342" height="218" key="GridCell.Tab.0.left" timestamp="1576143392254">
+    <state x="1043" y="370" width="352" height="231" key="Github.ShareDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576143663850" />
+    <state width="1342" height="140" key="GridCell.Tab.0.bottom" timestamp="1576147989707">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state width="1342" height="218" key="GridCell.Tab.0.left/59.27.1861.1053@59.27.1861.1053" timestamp="1576143392254" />
-    <state width="1342" height="218" key="GridCell.Tab.0.right" timestamp="1576143392254">
+    <state width="1342" height="140" key="GridCell.Tab.0.bottom/59.27.1861.1053@59.27.1861.1053" timestamp="1576147989707" />
+    <state width="1342" height="140" key="GridCell.Tab.0.center" timestamp="1576147989707">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state width="1342" height="218" key="GridCell.Tab.0.right/59.27.1861.1053@59.27.1861.1053" timestamp="1576143392254" />
+    <state width="1342" height="140" key="GridCell.Tab.0.center/59.27.1861.1053@59.27.1861.1053" timestamp="1576147989707" />
+    <state width="1342" height="140" key="GridCell.Tab.0.left" timestamp="1576147989707">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1342" height="140" key="GridCell.Tab.0.left/59.27.1861.1053@59.27.1861.1053" timestamp="1576147989707" />
+    <state width="1342" height="140" key="GridCell.Tab.0.right" timestamp="1576147989707">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state width="1342" height="140" key="GridCell.Tab.0.right/59.27.1861.1053@59.27.1861.1053" timestamp="1576147989707" />
+    <state x="921" y="480" width="302" height="180" key="VCS.ChangelistChooser" timestamp="1576147097285">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state x="921" y="480" width="302" height="180" key="VCS.ChangelistChooser/59.27.1861.1053@59.27.1861.1053" timestamp="1576147097285" />
     <state x="897" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1576140024243">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="897" y="403" key="com.intellij.ide.util.TipDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576140024243" />
+    <state x="791" y="279" width="562" height="582" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576147029077">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state x="791" y="279" width="562" height="582" key="git4idea.branch.GitSmartOperationDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576147029077" />
+    <state x="1148" y="349" width="591" height="439" key="git4idea.merge.GitMergeDialog" timestamp="1576146803821">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state x="1148" y="349" width="591" height="439" key="git4idea.merge.GitMergeDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576146803821" />
   </component>
 </project>
