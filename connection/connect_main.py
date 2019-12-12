@@ -21,8 +21,9 @@ def connect02():
 
 
 if __name__ == "__main__":
-    connect01()
+    for i in range(20):
+        connect01()
     #connect01()
-    read_config()
-    connect02()
+    #read_config()
+        connect02()
     #connect02()
