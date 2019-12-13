@@ -23,11 +23,15 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="1f9b025d-dcf7-43b4-bfcb-05deb3703487">
+        <schema name="coffee" object-types="table, procedure, function, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="1f9b025d-dcf7-43b4-bfcb-05deb3703487">
-      <console name="Mysql_mysql(root)" type="STANDARD" schema="mysql" session="Main" />
+      <console name="Mysql_mysql(root)" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
