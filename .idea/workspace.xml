@@ -28,7 +28,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hotfix_ddl" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/connection_pool" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.connect_pool_main">
+  <component name="RunManager" selected="Python.main_restore_backup">
     <configuration name="connect_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_mysql_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,27 +73,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection/connect_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="connect_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_mysql_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,13 +144,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main_restore_backup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_mysql_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/restore_backup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/restore_backup/main_restore_backup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.connect_pool_main" />
+        <item itemvalue="Python.main_restore_backup" />
         <item itemvalue="Python.connection_test" />
         <item itemvalue="Python.connection_mysql" />
+        <item itemvalue="Python.connect_pool_main" />
         <item itemvalue="Python.connect_main (1)" />
-        <item itemvalue="Python.connect_main" />
       </list>
     </recent_temporary>
   </component>
@@ -287,10 +287,10 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="897" y="403" key="com.intellij.ide.util.TipDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576140024243" />
-    <state x="791" y="279" width="562" height="582" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576147029077">
+    <state x="791" y="279" width="562" height="582" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576308552793">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
-    <state x="791" y="279" width="562" height="582" key="git4idea.branch.GitSmartOperationDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576147029077" />
+    <state x="791" y="279" width="562" height="582" key="git4idea.branch.GitSmartOperationDialog/59.27.1861.1053@59.27.1861.1053" timestamp="1576308552793" />
     <state x="1148" y="349" width="591" height="439" key="git4idea.merge.GitMergeDialog" timestamp="1576146803821">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
